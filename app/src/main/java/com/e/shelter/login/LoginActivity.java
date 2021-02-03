@@ -81,7 +81,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
      */
     public void signIn() {
         if (skipLogin) {
-            FirebaseAuth.getInstance().signInWithEmailAndPassword("adirat@ac.sce.il", "123456")
+            FirebaseAuth.getInstance().signInWithEmailAndPassword("####", "123456")
                     .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
